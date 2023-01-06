@@ -22,7 +22,7 @@ Here's your chance.  Finally, a tutorial where you learn while actually building
 
 By the end of this article, you'll have your own personal blog, built with Next.js, and hosted on AWS.  I'll even show you how to setup your own domain so you can share it with the world.  It's never been easier to start some self-promotion.
 
-Need proof?  This article was imported to Medium from jacoborshalick.me which was created using the steps shown here.  So no more excuses, let's get it built!
+Need proof?  The article your reading was imported to Medium from jacoborshalick.me which was created using the steps shown here.  So no more excuses, let's get it built!
 
 # Before you get started
 
@@ -41,7 +41,8 @@ Execute the following to retrieve the blog starter:
 
 You don't want my face and name on your blog.  Let's fix that.
 
-
-
 # Push your project to your Git repository
 
+# Now let's deploy to AWS Amplify
+
+# Setting up a domain
