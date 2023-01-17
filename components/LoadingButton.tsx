@@ -1,13 +1,14 @@
 import className from 'classnames';
+
 import { useState } from 'react';
 
-type IButtonProps = {
+type Props = {
   xl?: boolean;
   onClick?: () => Promise<void>;
   children: React.ReactNode;
 };
 
-const Button = (props: IButtonProps) => {
+const LoadingButton = (props: Props) => {
   const [ processing, setProcessing ] = useState(false);
 
   const handleClick = async () => {
@@ -56,4 +57,4 @@ const Button = (props: IButtonProps) => {
   );
 };
 
-export { Button };
+export { LoadingButton };

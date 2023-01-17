@@ -1,5 +1,5 @@
 import { ReactNode, useState } from 'react';
-import { Button } from './Button';
+import { LoadingButton } from './LoadingButton';
 
 type IHeroOneButtonProps = {
   title: ReactNode;
@@ -45,9 +45,9 @@ const HeroOneButton = (props: IHeroOneButtonProps) => {
 
       { subscribed ? <div className="mb-4">Thank you for subscribing!</div> : null}
       
-      <Button xl onClick={onSubscribe}>
+      <LoadingButton xl onClick={onSubscribe}>
         Subscribe Now
-      </Button>
+      </LoadingButton>
     </header>
   );
 };
