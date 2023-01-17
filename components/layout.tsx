@@ -1,6 +1,5 @@
-import Alert from './alert'
-import Footer from './footer'
-import Meta from './meta'
+import Footer from "./Footer"
+import Meta from "./Meta"
 
 type Props = {
   preview?: boolean

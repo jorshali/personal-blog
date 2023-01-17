@@ -1,4 +1,4 @@
-import Container from './container'
+import Container from './Container'
 import cn from 'classnames'
 import { PERSONAL_BLOG_PATH } from '../lib/constants'
 

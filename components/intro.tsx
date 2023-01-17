@@ -1,8 +1,6 @@
-import { Button } from './Button';
 import { Section } from './Section';
 import { Background } from './Background';
-import { HeroOneButton } from './hero-one-button';
-import { useState } from 'react';
+import { HeroOneButton } from './HeroOneButton';
 
 const Intro = () => {
   return (

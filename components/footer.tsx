@@ -1,4 +1,4 @@
-import Container from './container'
+import Container from './Container'
 import { PERSONAL_BLOG_PATH } from '../lib/constants'
 
 const Footer = () => {
