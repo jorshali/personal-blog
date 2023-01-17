@@ -7,9 +7,6 @@ import Head from 'next/head'
 import Post from '../interfaces/post'
 import { Section } from '../components/Section'
 
-import { Modal } from 'flowbite';
-import { Alert } from 'flowbite-react'
-
 type Props = {
   allPosts: Post[]
 }
