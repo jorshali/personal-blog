@@ -10,19 +10,25 @@ ogImage:
   url: '/assets/blog/never-fear-another-layoff/victor-rodriguez-pWOdBS_l9LQ-unsplash.jpg'
 ---
 
-I've been through a lot of layoffs at various organizations.  I was directly impacted as an employee at the start of my career, but mostly as a consultant on the outside looking in.
+Layoffs are heart-breaking and difficult for everyone involved. But, it doesn't have to be something you fear.
 
-Layoffs are heart-breaking and difficult for everyone involved.  But, it doesn't have to be something you fear.  My first layoff experience opened my eyes to the limits of the comfort zone we call a job.  I learned there is no safe haven, so I'd better stop pretending.
+My first layoff experience was in college. As an intern my department got eliminated when the telecom bubble burst.
 
-I simply started looking at layoffs as a chance for something new.  Here's how I did it:
+The experience opened my eyes to the limits of the comfort zone called a job. There was no safe haven, so I'd better stop pretending.
+
+I never wanted to fear another layoff. I wanted to be prepared for anything. Here's how I did it:
+
+## Be honest with yourself
+
+Are you employable? Have your skills stayed current? Honestly assess where you're at in your career and whether you are continuing to grow.
+
+If you don't like what you see, create an action plan to fix it. 
 
 ## Get out of your comfort zone
 
 The comfort zone is our safe haven.  But, if you [read nearly any self help guide](https://medium.com/carl-pullein/why-your-comfort-zone-is-the-most-dangerous-place-on-earth-aec44723888e), the message is clear.  Staying in our comfort zone impedes our growth.
 
-Transfer to that new project with the new technology.  Take the time to learn new technologies on your own.  Start building a product you think you could sell.  Learn, write about it, present, contribute, rinse, repeat.  
-
-Make yourself employable.  Who knows, you may even become unemployable by building a company of your own along the way.
+Transfer to that new project with the new technology.  Take the time to learn new technologies on your own.  Start building a product you think you could sell.  Learn, write about it, present, contribute, rinse, repeat.
 
 ## Put the work in
 
