@@ -1,13 +1,13 @@
 ---
-title: 'Rockstar developer'
-excerpt: 'A guide to becoming an expert developer.'
-coverImage: '/assets/blog/never-fear-another-layoff/victor-rodriguez-pWOdBS_l9LQ-unsplash.jpg'
-date: '2022-01-06T09:10:07.322Z'
+title: 'You can be a Rockstar developer'
+excerpt: 'Anyone can be a "Rockstar" developer, but there''s only one way to do it.  Find out how.'
+coverImage: '/assets/blog/you-can-be-a-rockstar-developer/sam-moghadam-khamseh-TmbMLAvXrZQ-unsplash.jpg'
+date: '2023-01-18T07:00:00.000Z'
 author:
   name: Jacob Orshalick
   picture: '/assets/blog/authors/orshalick.jpg'
 ogImage:
-  url: '/assets/blog/never-fear-another-layoff/victor-rodriguez-pWOdBS_l9LQ-unsplash.jpg'
+  url: '/assets/blog/you-can-be-a-rockstar-developer/sam-moghadam-khamseh-TmbMLAvXrZQ-unsplash.jpg'
 ---
 
 Anyone can be a "Rockstar" developer, but there's only one way to do it.
@@ -15,7 +15,6 @@ Anyone can be a "Rockstar" developer, but there's only one way to do it.
 You have to stop being content with a surface level understanding of the technologies you work with.  It takes a desire to learn and the hard work to perservere.
 
 Most developers allow Google and StackOverflow to do the thinking for them.  A quick search for an exception and the configuration / code block appears to magically solve their problem.  I've certainly done it plenty of times.  You just need a quick fix so you can move onto more important things.
-
 
 - Read the manual (RTM)
 - Read books from the experts

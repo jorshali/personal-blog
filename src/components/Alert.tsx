@@ -29,7 +29,7 @@ const Alert = ({ preview }: Props) => {
             </>
           ) : (
             <>
-              The source code for my blog is{' '}
+              The source code for my site is{' '}
               <a
                 href={PERSONAL_BLOG_PATH}
                 className="underline hover:text-blue-600 duration-200 transition-colors"

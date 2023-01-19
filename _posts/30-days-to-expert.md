@@ -1,8 +1,8 @@
 ---
 title: '30 day developer challenge'
 excerpt: 'Want to be a better developer?  Try my 30 day challenge.'
-coverImage: '/assets/blog/never-fear-another-layoff/victor-rodriguez-pWOdBS_l9LQ-unsplash.jpg'
-date: '2022-01-06T09:10:07.322Z'
+coverImage: '/assets/blog/30-days-to-expert/sean-benesh-VnmbcgAfL3Q-unsplash.jpg'
+date: '2023-01-09T07:00:00.000Z'
 author:
   name: Jacob Orshalick
   picture: '/assets/blog/authors/orshalick.jpg'

@@ -1,4 +1,4 @@
-import Footer from "./Footer"
+import { TemplateFooter } from "./TemplateFooter"
 import Meta from "./Meta"
 
 type Props = {
@@ -13,7 +13,7 @@ const Layout = ({ preview, children }: Props) => {
       <div className="min-h-screen">
         <main>{children}</main>
       </div>
-      <Footer />
+      <TemplateFooter />
     </>
   )
 }
