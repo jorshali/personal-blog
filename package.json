@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build",
+    "postbuild": "next export",
     "start": "next start",
     "static": "npx http-server ./out --port 3000",
     "typecheck": "tsc"
