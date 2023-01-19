@@ -2,7 +2,6 @@ import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import Container from '../../components/Container'
 import PostBody from '../../components/PostBody'
-import Header from '../../components/Header'
 import PostHeader from '../../components/PostHeader'
 import Layout from '../../components/Layout'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
@@ -21,6 +20,7 @@ type Props = {
 
 export default function Post({ post, morePosts, preview }: Props) {
   const router = useRouter()
+
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
@@ -31,17 +31,19 @@ export default function Post({ post, morePosts, preview }: Props) {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mb-32">
+            <article className="mb-8">
               <Head>
                 <title>
-                  {post.title} | {SITE_NAME}
+                    {post.title + ' | ' + SITE_NAME}
                 </title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
               <Section>
                 <PostHeader
                   title={post.title}
+                  subtitle={post.excerpt}
                   coverImage={post.coverImage}
+                  coverImageAttribution={post.coverImageAttribution}
                   date={post.date}
                   author={post.author}
                 />
@@ -64,12 +66,14 @@ type Params = {
 export async function getStaticProps({ params }: Params) {
   const post = getPostBySlug(params.slug, [
     'title',
+    'excerpt',
     'date',
     'slug',
     'author',
     'content',
     'ogImage',
     'coverImage',
+    'coverImageAttribution'
   ])
   const content = await markdownToHtml(post.content || '')
 

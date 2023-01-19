@@ -2,6 +2,7 @@
 title: 'You can be a Rockstar developer'
 excerpt: 'Anyone can be a "Rockstar" developer, but there''s only one way to do it.  Find out how.'
 coverImage: '/assets/blog/you-can-be-a-rockstar-developer/sam-moghadam-khamseh-TmbMLAvXrZQ-unsplash.jpg'
+coverImageAttribution: 'Photo by <a href="https://unsplash.com/pt/@sammoghadamkhamseh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moghadam Khamseh</a> on <a href="https://unsplash.com/photos/TmbMLAvXrZQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 date: '2023-01-18T07:00:00.000Z'
 author:
   name: Jacob Orshalick

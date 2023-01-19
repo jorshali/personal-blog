@@ -1,7 +1,8 @@
 ---
 title: 'Never fear another layoff'
-excerpt: 'A guide to stop looking at layoffs as something to fear and start looking at them as company handing you the keys to a new opportunity.'
+excerpt: 'Layoffs are heart-breaking and difficult for everyone involved. But, it doesn''t have to be something you fear.'
 coverImage: '/assets/blog/never-fear-another-layoff/victor-rodriguez-pWOdBS_l9LQ-unsplash.jpg'
+coverImageAttribution: 'Photo by <a href="https://unsplash.com/@vimarovi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Rodriguez</a> on <a href="https://unsplash.com/photos/pWOdBS_l9LQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 date: '2023-01-23T12:00:00.000Z'
 author:
   name: Jacob Orshalick
@@ -9,8 +10,6 @@ author:
 ogImage:
   url: '/assets/blog/never-fear-another-layoff/victor-rodriguez-pWOdBS_l9LQ-unsplash.jpg'
 ---
-
-Layoffs are heart-breaking and difficult for everyone involved. But, it doesn't have to be something you fear.
 
 My first layoff experience was in college. As an intern my department got eliminated when the telecom bubble burst.
 

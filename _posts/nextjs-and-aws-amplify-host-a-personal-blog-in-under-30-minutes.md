@@ -2,6 +2,7 @@
 title: 'Next.js and AWS Amplify: Host a pesonal blog in under 30 minutes'
 excerpt: 'Finally, a tutorial where you learn while actually building something you can use.'
 coverImage: '/assets/blog/nextjs-and-aws-amplify-host-a-personal-blog-in-under-30-minutes/sergio-capuzzimati-Ihml-Sigf6s-unsplash.jpg'
+coverImageAttribution: 'Photo by <a href="https://unsplash.com/@sergio_capuzzimati?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergio Capuzzimati</a> on <a href="https://unsplash.com/photos/Ihml-Sigf6s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 date: '2023-01-20T07:00:00.000Z'
 author:
   name: Jacob Orshalick
@@ -24,7 +25,7 @@ By the end of this article, you'll have your own personal blog, built with Next.
 
 Need proof?  The article your reading was imported to Medium from [jacoborshalick.me](https://jacoborshalick.me) which was created using the steps shown here.  So no more excuses, let's get your personal blog built!
 
-# Before you get started
+## Before you get started
 
 You'll need a few things.  Maybe you already have some of them:
 
@@ -33,16 +34,16 @@ You'll need a few things.  Maybe you already have some of them:
 - Install Next.js
 - Make sure you have Git installed
 
-# Retrieve the blog example
+## Retrieve the blog example
 
 Execute the following to retrieve the blog starter:
 
-# Customize the project
+## Customize the project
 
 You don't want my face and name on your blog.  Let's fix that.
 
-# Push your project to your Git repository
+## Push your project to your Git repository
 
-# Now let's deploy to AWS Amplify
+## Now let's deploy to AWS Amplify
 
-# Setting up a domain
+## Setting up a domain

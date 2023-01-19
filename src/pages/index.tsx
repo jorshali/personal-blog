@@ -16,7 +16,9 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>Jacob Orshalick | Maximizing your value as a developer.</title>
+          <title>
+              Jacob Orshalick | Maximizing your value as a developer.
+          </title>
         </Head>
         <Intro />
 
