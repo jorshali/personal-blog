@@ -2,7 +2,7 @@
 title: 'Never fear another layoff'
 excerpt: 'A guide to stop looking at layoffs as something to fear and start looking at them as company handing you the keys to a new opportunity.'
 coverImage: '/assets/blog/never-fear-another-layoff/victor-rodriguez-pWOdBS_l9LQ-unsplash.jpg'
-date: '2023-01-17T07:00:00.000Z'
+date: '2023-01-23T12:00:00.000Z'
 author:
   name: Jacob Orshalick
   picture: '/assets/blog/authors/orshalick.jpg'
