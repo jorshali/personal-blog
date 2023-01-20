@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
+    "prebuild": "npm install",
     "build": "next build",
     "prod": "next export",
     "start": "next start",
