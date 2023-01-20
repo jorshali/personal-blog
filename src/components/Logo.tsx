@@ -5,13 +5,8 @@ type ILogoProps = {
 };
 
 const Logo = (props: ILogoProps) => {
-  const size = props.xl ? '44' : '32';
-  const fontStyle = props.xl
-    ? 'font-semibold text-2xl'
-    : 'font-semibold text-xl';
-
   return (
-    <span className={`inline-flex items-center ${fontStyle}`}>
+    <span className={`inline-flex items-center font-semibold md:text-2xl text-lg`}>
       {SITE_NAME}
     </span>
   );

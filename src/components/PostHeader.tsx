@@ -38,7 +38,9 @@ const PostHeader = ({ shareUrl, title, subtitle, coverImage, coverImageAttributi
       <div className="flex items-center mb-8">
         <img src={author.picture} className="w-12 h-12 rounded-full mr-4" alt={author.name} />
         
-        <DateFormatter dateString={date} />
+        <span className="text-xs sm:text-lg">
+          <DateFormatter dateString={date} />
+        </span>
 
         <FacebookShareButton className="ml-8 hover:opacity-60" url={shareUrl}>
           <FacebookIcon size={28} bgStyle={{fill: '#a0aec0'}} />
@@ -57,17 +59,9 @@ const PostHeader = ({ shareUrl, title, subtitle, coverImage, coverImageAttributi
       <div className="mb-8 md:mb-16 sm:mx-0">
         <CoverImage title={title} src={coverImage} />
         <div
-          className={markdownStyles['markdown'] + ' text-xs mt-2 text-gray-600 text-center'}
+          className="text-sm md:text-md mt-2 text-gray-600 text-center [&>a]:underline"
           dangerouslySetInnerHTML={{ __html: coverImageAttribution }}
         />
-      </div>
-
-      <div className="max-w-2xl mx-auto">
-        <div className="block md:hidden mb-6">
-          <Avatar name={author.name} picture={author.picture} />
-        </div>
-        <div className="mb-6 text-lg">
-        </div>
       </div>
     </>
   )

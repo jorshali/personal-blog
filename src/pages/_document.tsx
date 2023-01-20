@@ -15,7 +15,7 @@ export default function Document() {
 
         <Background color="bg-gray-200">
           <Section yPadding="py-4">
-            <NavbarTwoColumns logo={<Logo xl />}>
+            <NavbarTwoColumns logo={<Logo />}>
               <li className="mr-5">
                 <Link href="/#About-Me">
                   About
