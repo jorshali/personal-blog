@@ -34,7 +34,7 @@ export default function Index({ allPosts }: Props) {
                 articles and a book, spoke at major conferences, and won community awards for my
                 contributions to open source.
               </div>
-              <div className="mt-6 flex justify-center">
+              <div className="mt-6 mb-6 md:mb-0 flex justify-center">
                 <IconList>
                   <ProfileIcons />
                 </IconList>

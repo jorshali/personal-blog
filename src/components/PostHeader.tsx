@@ -32,17 +32,17 @@ const PostHeader = ({ shareUrl, title, subtitle, coverImage, coverImageAttributi
       <PostTitle>{title}</PostTitle>
 
       <div className="flex items-center mb-8">
-        <h2 className="text-1xl md:text-2xl lg:text-2xl tracking-tighter leading-tight md:leading-none text-center md:text-left text-gray-600">{subtitle}</h2>
+        <h2 className="text-1xl md:text-2xl tracking-tighter leading-tight md:leading-none text-center md:text-left text-gray-600">{subtitle}</h2>
       </div>
 
       <div className="flex items-center mb-8">
-        <img src={author.picture} className="w-12 h-12 rounded-full mr-4" alt={author.name} />
+        <img src={author.picture} className="w-8 h-8 sm:h-12 sm:w-12 rounded-full mr-4" alt={author.name} />
         
         <span className="text-xs sm:text-lg">
           <DateFormatter dateString={date} />
         </span>
 
-        <FacebookShareButton className="ml-8 hover:opacity-60" url={shareUrl}>
+        <FacebookShareButton className="ml-4 sm:ml-8 hover:opacity-60" url={shareUrl}>
           <FacebookIcon size={28} bgStyle={{fill: '#a0aec0'}} />
         </FacebookShareButton>
         <LinkedinShareButton className="ml-2 hover:opacity-70" url={shareUrl}>
