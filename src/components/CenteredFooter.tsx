@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
 import { FooterCopyright } from './FooterCopyright';
-import { FooterIconList } from './FooterIconList';
+import { IconList } from './IconList';
 
 type ICenteredFooterProps = {
   logo: ReactNode;
@@ -20,7 +20,7 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
     </nav>
 
     <div className="mt-8 flex justify-center">
-      <FooterIconList>{props.iconList}</FooterIconList>
+      <IconList>{props.iconList}</IconList>
     </div>
 
     <div className="mt-8 text-sm">

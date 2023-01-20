@@ -1,10 +1,10 @@
 import { ReactNode } from 'react';
 
-type IFooterIconListProps = {
+type Props = {
   children: ReactNode;
 };
 
-const FooterIconList = (props: IFooterIconListProps) => (
+const IconList = (props: Props) => (
   <div className="footer-icon-list flex flex-wrap">
     {props.children}
 
@@ -19,15 +19,15 @@ const FooterIconList = (props: IFooterIconListProps) => (
         }
 
         .footer-icon-list :global(a:hover) {
-          @apply text-gray-700;
+          @apply opacity-60;
         }
 
         .footer-icon-list :global(svg) {
-          @apply fill-current w-5 h-5;
+          @apply fill-current w-6 h-6;
         }
       `}
     </style>
   </div>
 );
 
-export { FooterIconList };
+export { IconList };

@@ -6,6 +6,8 @@ import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import Post from '../interfaces/post'
 import { Section } from '../components/Section'
+import { IconList } from '../components/IconList'
+import { ProfileIcons } from '../components/ProfileIcons'
 
 type Props = {
   allPosts: Post[]
@@ -31,6 +33,11 @@ export default function Index({ allPosts }: Props) {
                 and everything in between.  Along the way, I've authored over 100 software 
                 articles and a book, spoke at major conferences, and won community awards for my
                 contributions to open source.
+              </div>
+              <div className="mt-6 flex justify-center">
+                <IconList>
+                  <ProfileIcons />
+                </IconList>
               </div>
             </div>
 

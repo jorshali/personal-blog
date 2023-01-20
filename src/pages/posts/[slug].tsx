@@ -40,6 +40,7 @@ export default function Post({ post, morePosts, preview }: Props) {
               </Head>
               <Section>
                 <PostHeader
+                  shareUrl={'https://jacoborshalick.me/posts/' + post.slug}
                   title={post.title}
                   subtitle={post.excerpt}
                   coverImage={post.coverImage}
