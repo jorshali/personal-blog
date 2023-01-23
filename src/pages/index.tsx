@@ -10,7 +10,6 @@ import { IconList } from '../components/IconList'
 import { ProfileLinks } from '../components/ProfileLinks'
 import { PROFILE_ABOUT_TEXT, PROFILE_IMAGE_LOCATION, SITE_MOTTO, SITE_NAME } from '../lib/constants'
 import SectionSeparator from '../components/SectionSeparator'
-import Alert from '../components/Alert'
 import PoweredBy from '../components/PoweredBy'
 
 type Props = {
