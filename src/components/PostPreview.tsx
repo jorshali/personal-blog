@@ -1,14 +1,12 @@
 import DateFormatter from './DateFormatter'
 import CoverImage from './CoverImage'
 import Link from 'next/link'
-import type Author from '../interfaces/author'
 
 type Props = {
   title: string
   coverImage: string
   date: string
   excerpt: string
-  author: Author
   slug: string
 }
 
@@ -17,7 +15,6 @@ const PostPreview = ({
   coverImage,
   date,
   excerpt,
-  author,
   slug,
 }: Props) => {
   return (

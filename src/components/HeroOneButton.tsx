@@ -38,7 +38,7 @@ const HeroOneButton = (props: IHeroOneButtonProps) => {
       <div className="mb-8">
         <input 
           onChange={(event) => setEmail(event.target.value)}
-          className="text-sm rounded-lg block w-full p-3.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
+          className="text-base rounded-lg block w-full p-3.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
           placeholder='Your Email Address'>
         </input>
       </div>

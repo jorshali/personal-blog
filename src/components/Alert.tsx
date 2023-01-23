@@ -1,6 +1,6 @@
 import Container from './Container'
 import cn from 'classnames'
-import { PERSONAL_BLOG_PATH } from '../lib/constants'
+import { PERSONAL_BLOG_SOURCE_CODE } from '../lib/constants'
 
 type Props = {
   preview?: boolean
@@ -16,29 +16,16 @@ const Alert = ({ preview }: Props) => {
     >
       <Container>
         <div className="py-2 text-center text-sm">
-          {preview ? (
-            <>
-              This page is a preview.{' '}
-              <a
-                href="/api/exit-preview"
-                className="underline hover:text-teal-300 duration-200 transition-colors"
-              >
-                Click here
-              </a>{' '}
-              to exit preview mode.
-            </>
-          ) : (
-            <>
-              The source code for my site is{' '}
-              <a
-                href={PERSONAL_BLOG_PATH}
-                className="underline hover:text-blue-600 duration-200 transition-colors"
-              >
-                available on GitHub
-              </a>
-              .
-            </>
-          )}
+          <>
+            The source code for my site is{' '}
+            <a
+              href={PERSONAL_BLOG_SOURCE_CODE}
+              className="underline hover:text-blue-600 duration-200 transition-colors"
+            >
+              available on GitHub
+            </a>
+            .
+          </>
         </div>
       </Container>
     </div>

@@ -1,5 +1,5 @@
 import Container from '../components/Container'
-import MoreStories from '../components/MoreStories'
+import PostPreviews from '../components/PostPreviews'
 import Intro from '../components/Intro'
 import Layout from '../components/Layout'
 import { getAllPosts } from '../lib/api'
@@ -7,7 +7,11 @@ import Head from 'next/head'
 import Post from '../interfaces/post'
 import { Section } from '../components/Section'
 import { IconList } from '../components/IconList'
-import { ProfileIcons } from '../components/ProfileIcons'
+import { ProfileLinks } from '../components/ProfileLinks'
+import { PROFILE_ABOUT_TEXT, PROFILE_IMAGE_LOCATION, SITE_MOTTO, SITE_NAME } from '../lib/constants'
+import SectionSeparator from '../components/SectionSeparator'
+import Alert from '../components/Alert'
+import PoweredBy from '../components/PoweredBy'
 
 type Props = {
   allPosts: Post[]
@@ -19,7 +23,7 @@ export default function Index({ allPosts }: Props) {
       <Layout>
         <Head>
           <title>
-              Jacob Orshalick | Maximizing your value as a developer.
+              {SITE_NAME + ' | ' + SITE_MOTTO}
           </title>
         </Head>
         <Intro />
@@ -29,30 +33,31 @@ export default function Index({ allPosts }: Props) {
             <div className="w-full sm:w-1/2 text-center sm:px-6">
               <h3 className="text-3xl text-gray-900 font-semibold">About Me</h3>
               <div className="mt-6 text-xl leading-9">
-                I spent the last two decades independently consulting with Fortune 500 companies, startups, 
-                and everything in between.  Along the way, I've authored over 100 software 
-                articles and a book, spoke at major conferences, and won community awards for my
-                contributions to open source.
+                {PROFILE_ABOUT_TEXT}
               </div>
               <div className="mt-6 mb-6 md:mb-0 flex justify-center">
                 <IconList>
-                  <ProfileIcons />
+                  <ProfileLinks />
                 </IconList>
               </div>
             </div>
 
             <div className="w-full sm:w-1/2 p-6">
-              <img src="/assets/blog/authors/orshalick.jpg" className="rounded-full mr-4" alt="Jacob Orshalick" />
+              <img src={PROFILE_IMAGE_LOCATION} className="rounded-full mr-4" alt={SITE_NAME} />
             </div>
           </div>
         </Section>
 
+        <SectionSeparator /> 
+
         <Container>
           <div id="Recent-Articles">
-            {allPosts.length > 0 && <MoreStories posts={allPosts} />}
+            {allPosts.length > 0 && <PostPreviews posts={allPosts} />}
           </div>
         </Container>
       </Layout>
+
+      <PoweredBy />
     </>
   )
 }

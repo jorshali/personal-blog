@@ -9,12 +9,10 @@ import {
   EmailIcon
 } from 'react-share';
 
-import Avatar from './Avatar'
 import DateFormatter from './DateFormatter'
 import CoverImage from './CoverImage'
 import PostTitle from './PostTitle'
 import type Author from '../interfaces/author'
-import markdownStyles from './markdown-styles.module.css';
 
 type Props = {
   shareUrl: string;

@@ -1,6 +1,8 @@
+import { COPYRIGHT } from "../lib/constants";
+
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    © Copyright {new Date().getFullYear()} "Jacob Orshalick".
+    © Copyright {new Date().getFullYear()} "{COPYRIGHT}".
     {/*
      * PLEASE READ THIS SECTION
      * We'll really appreciate if you could have a link to our website

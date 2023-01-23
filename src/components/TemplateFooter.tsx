@@ -1,9 +1,10 @@
 import Link from 'next/link';
+import { PROFILE_GITHUB } from '../lib/constants';
 import { Background } from './Background';
 import { CenteredFooter } from './CenteredFooter';
 
 import { Logo } from './Logo';
-import { ProfileIcons } from './ProfileIcons';
+import { ProfileLinks } from './ProfileLinks';
 import { Section } from './Section';
 
 const TemplateFooter = () => (
@@ -12,7 +13,7 @@ const TemplateFooter = () => (
       <CenteredFooter
         logo={<Logo />}
         iconList={
-          <ProfileIcons />
+          <ProfileLinks />
         }
       >
         <li>
@@ -31,7 +32,7 @@ const TemplateFooter = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://github.com/jorshali/personal-blog">
+          <Link href={PROFILE_GITHUB}>
             GitHub
           </Link>
         </li>

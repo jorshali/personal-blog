@@ -7,7 +7,7 @@ import Layout from '../../components/Layout'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import PostTitle from '../../components/PostTitle'
 import Head from 'next/head'
-import { SITE_NAME } from '../../lib/constants'
+import { SITE_NAME, SITE_URL } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
 import { Section } from '../../components/Section'
@@ -25,7 +25,7 @@ export default function Post({ post, morePosts, preview }: Props) {
     return <ErrorPage statusCode={404} />
   }
   return (
-    <Layout preview={preview}>
+    <Layout>
       <Container>
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
@@ -40,7 +40,7 @@ export default function Post({ post, morePosts, preview }: Props) {
               </Head>
               <Section>
                 <PostHeader
-                  shareUrl={'https://jacoborshalick.me/posts/' + post.slug}
+                  shareUrl={SITE_URL + '/posts/' + post.slug}
                   title={post.title}
                   subtitle={post.excerpt}
                   coverImage={post.coverImage}

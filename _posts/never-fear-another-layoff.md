@@ -19,9 +19,13 @@ I never wanted to fear another layoff. I wanted to be prepared for anything. Her
 
 ## Be honest with yourself
 
-Are you employable? Have your skills stayed current? Honestly assess where you're at in your career and whether you are continuing to grow.
+Start by honestly assessing where you're at in your career:
 
-If you don't like what you see, create an action plan to fix it. 
+- Are you employable?
+- Have your skills stayed current?
+- Are you continuing to grow?
+
+If you don't like what you see, create an action plan to fix it.  You are responsible for your own career. 
 
 ## Get out of your comfort zone
 
