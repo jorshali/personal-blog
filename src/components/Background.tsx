@@ -1,11 +1,11 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
-type IBackgroundProps = {
+type Props = {
   children: ReactNode;
   color: string;
 };
 
-const Background = (props: IBackgroundProps) => (
+const Background = (props: Props) => (
   <div className={props.color}>{props.children}</div>
 );
 

@@ -1,23 +1,13 @@
-import Container from './Container'
-import cn from 'classnames'
-import { PERSONAL_BLOG_SOURCE_CODE } from '../lib/constants'
+import { PERSONAL_BLOG_SOURCE_CODE } from "../lib/constants";
+import Container from "./Container";
 
-type Props = {
-  preview?: boolean
-}
-
-const Alert = ({ preview }: Props) => {
+const Alert = () => {
   return (
-    <div
-      className={cn('border-b', {
-        'bg-neutral-800 border-neutral-800 text-white': preview,
-        'bg-neutral-50 border-neutral-200': !preview,
-      })}
-    >
+    <div className="bg-neutral-50 border-neutral-200">
       <Container>
         <div className="py-2 text-center text-sm">
           <>
-            The source code for my site is{' '}
+            The source code for my site is{" "}
             <a
               href={PERSONAL_BLOG_SOURCE_CODE}
               className="underline hover:text-blue-600 duration-200 transition-colors"
@@ -29,7 +19,7 @@ const Alert = ({ preview }: Props) => {
         </div>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Alert
+export default Alert;

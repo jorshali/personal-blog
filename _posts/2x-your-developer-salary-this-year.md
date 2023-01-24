@@ -1,5 +1,5 @@
 ---
-title: '2x your Developer Salary this Year'
+title: 'How to 2x your Developer Salary this Year'
 excerpt: 'Throw in better work-life balance, the ability to choose what projects you work on, and where you work from. Learn how I got started independent consulting.'
 coverImage: '/assets/blog/2x-your-developer-salary-this-year/ryland-dean-6k6N8HTrXyE-unsplash.jpg'
 coverImageAttribution: 'Photo by <a href="https://unsplash.com/@ryland_dean?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryland Dean</a> on <a href="https://unsplash.com/photos/6k6N8HTrXyE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'

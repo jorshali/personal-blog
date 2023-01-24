@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import { HOME_OG_IMAGE_URL, SITE_MOTTO } from '../lib/constants'
+import Head from "next/head";
+
+import { HERO_TITLE, HOME_OG_IMAGE_URL } from "../lib/constants";
 
 const Meta = () => {
   return (
@@ -32,13 +33,10 @@ const Meta = () => {
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta
-        name="description"
-        content={SITE_MOTTO}
-      />
+      <meta name="description" content={HERO_TITLE} />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
-  )
-}
+  );
+};
 
-export default Meta
+export default Meta;

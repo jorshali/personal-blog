@@ -1,16 +1,16 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
-type ISectionProps = {
+type Props = {
   title?: string;
   description?: string;
   yPadding?: string;
   children: ReactNode;
 };
 
-const Section = (props: ISectionProps) => (
+const Section = (props: Props) => (
   <div
     className={`max-w-screen-lg mx-auto px-3 ${
-      props.yPadding ? props.yPadding : 'py-16'
+      props.yPadding ? props.yPadding : "py-16"
     }`}
   >
     {(props.title || props.description) && (

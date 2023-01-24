@@ -1,4 +1,4 @@
-import type Author from './author'
+import type Author from "./author";
 
 type PostType = {
   slug: string;
@@ -10,8 +10,8 @@ type PostType = {
   excerpt: string;
   ogImage: {
     url: string;
-  }
+  };
   content: string;
-}
+};
 
-export default PostType
+export default PostType;

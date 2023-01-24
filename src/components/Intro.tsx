@@ -1,6 +1,7 @@
-import { Section } from './Section';
-import { Background } from './Background';
-import { HeroOneButton } from './HeroOneButton';
+import { HERO_SUBTITLE, HERO_TITLE } from "../lib/constants";
+import { Background } from "./Background";
+import { HeroOneButton } from "./HeroOneButton";
+import { Section } from "./Section";
 
 const Intro = () => {
   return (
@@ -9,14 +10,14 @@ const Intro = () => {
         <HeroOneButton
           title={
             <>
-              <span className="text-primary-500">Build the software career you want</span>
+              <span className="text-primary-500">{HERO_TITLE}</span>
             </>
           }
-          description="Weekly, actionable tips to invest in yourself and raise your value."
+          description={HERO_SUBTITLE}
         />
       </Section>
     </Background>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;

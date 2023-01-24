@@ -1,19 +1,19 @@
-import cn from 'classnames';
-import Link from 'next/link';
+import cn from "classnames";
+import Link from "next/link";
 
 type Props = {
   title: string;
   src: string;
   slug?: string;
-}
+};
 
 const CoverImage = ({ title, src, slug }: Props) => {
   const image = (
     <img
       src={src}
       alt={`Cover Image for ${title}`}
-      className={cn('shadow-sm object-cover object-center mx-auto', {
-        'hover:shadow-lg transition-shadow duration-200 w-full h-96 ': slug,
+      className={cn("shadow-sm object-cover object-center mx-auto", {
+        "hover:shadow-lg transition-shadow duration-200 w-full h-96 ": slug,
       })}
     />
   );
@@ -29,6 +29,6 @@ const CoverImage = ({ title, src, slug }: Props) => {
       )}
     </div>
   );
-}
+};
 
 export default CoverImage;

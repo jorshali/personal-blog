@@ -1,7 +1,11 @@
 import Link from "next/link";
-
 import { LinkedinIcon } from "react-share";
-import { PROFILE_GITHUB, PROFILE_LINKEDIN, PROFILE_MEDIUM } from "../lib/constants";
+
+import {
+  PROFILE_GITHUB,
+  PROFILE_LINKEDIN,
+  PROFILE_MEDIUM,
+} from "../lib/constants";
 
 const ProfileLinks = () => (
   <>
@@ -12,7 +16,7 @@ const ProfileLinks = () => (
     </Link>
 
     <Link href={PROFILE_LINKEDIN}>
-      <LinkedinIcon bgStyle={{fill: '#a0aec0'}} />
+      <LinkedinIcon bgStyle={{ fill: "#a0aec0" }} />
     </Link>
 
     <Link href={PROFILE_MEDIUM}>

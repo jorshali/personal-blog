@@ -1,6 +1,5 @@
-import className from 'classnames';
-
-import { useState } from 'react';
+import className from "classnames";
+import { useState } from "react";
 
 type Props = {
   xl?: boolean;
@@ -9,7 +8,7 @@ type Props = {
 };
 
 const LoadingButton = (props: Props) => {
-  const [ processing, setProcessing ] = useState(false);
+  const [processing, setProcessing] = useState(false);
 
   const handleClick = async () => {
     setProcessing(true);
@@ -19,11 +18,11 @@ const LoadingButton = (props: Props) => {
 
   const btnClass = className({
     btn: true,
-    'btn-xl': props.xl,
-    'btn-base': !props.xl,
-    'btn-primary': true,
-    'animate-pulse': processing,
-    'cursor-pointer': true
+    "btn-xl": props.xl,
+    "btn-base": !props.xl,
+    "btn-primary": true,
+    "animate-pulse": processing,
+    "cursor-pointer": true,
   });
 
   return (
