@@ -2,13 +2,14 @@ import Meta from "./Meta";
 import { TemplateFooter } from "./TemplateFooter";
 
 type Props = {
+  excludeOgImage?: boolean;
   children: React.ReactNode;
 };
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ excludeOgImage, children }: Props) => {
   return (
     <>
-      <Meta />
+      <Meta excludeOgImage={excludeOgImage} />
       <div className="min-h-screen">
         <main>{children}</main>
       </div>

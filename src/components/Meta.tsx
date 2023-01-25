@@ -2,7 +2,11 @@ import Head from "next/head";
 
 import { HERO_TITLE, HOME_OG_IMAGE_URL } from "../lib/constants";
 
-const Meta = () => {
+type Props = {
+  excludeOgImage?: boolean;
+};
+
+const Meta = ({ excludeOgImage }: Props) => {
   return (
     <Head>
       <link
@@ -34,7 +38,7 @@ const Meta = () => {
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta name="description" content={HERO_TITLE} />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      { !excludeOgImage ? <meta property="og:image" content={HOME_OG_IMAGE_URL} /> : null }
     </Head>
   );
 };

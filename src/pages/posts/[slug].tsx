@@ -28,7 +28,7 @@ export default function Post({ post }: Props) {
     return <ErrorPage statusCode={404} />;
   }
   return (
-    <Layout>
+    <Layout excludeOgImage={true}>
       <Container>
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
