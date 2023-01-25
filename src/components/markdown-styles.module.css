@@ -28,3 +28,7 @@
 .markdown a {
   @apply underline;
 }
+
+.markdown pre {
+  @apply overflow-scroll;
+}
