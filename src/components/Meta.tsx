@@ -38,7 +38,9 @@ const Meta = ({ excludeOgImage }: Props) => {
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta name="description" content={HERO_TITLE} />
-      { !excludeOgImage ? <meta property="og:image" content={HOME_OG_IMAGE_URL} /> : null }
+      {!excludeOgImage ? (
+        <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      ) : null}
     </Head>
   );
 };
