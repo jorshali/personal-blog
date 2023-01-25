@@ -47,7 +47,6 @@ export default function Post({ post }: Props) {
                   coverImage={post.coverImage}
                   coverImageAttribution={post.coverImageAttribution}
                   date={post.date}
-                  author={post.author}
                 />
                 <PostBody content={post.content} />
 
@@ -78,7 +77,6 @@ export async function getStaticProps({ params }: Params) {
     "excerpt",
     "date",
     "slug",
-    "author",
     "content",
     "ogImage",
     "coverImage",

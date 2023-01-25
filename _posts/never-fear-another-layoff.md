@@ -4,9 +4,6 @@ excerpt: 'Layoffs are heart-breaking and difficult for everyone involved. But, i
 coverImage: '/assets/blog/never-fear-another-layoff/victor-rodriguez-pWOdBS_l9LQ-unsplash.jpg'
 coverImageAttribution: 'Photo by <a href="https://unsplash.com/@vimarovi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Rodriguez</a> on <a href="https://unsplash.com/photos/pWOdBS_l9LQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 date: '2023-01-23T12:00:00.000Z'
-author:
-  name: Jacob Orshalick
-  picture: '/assets/blog/authors/orshalick.jpg'
 ogImage:
   url: '/assets/blog/never-fear-another-layoff/victor-rodriguez-pWOdBS_l9LQ-unsplash.jpg'
 ---

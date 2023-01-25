@@ -8,8 +8,8 @@ import {
   TwitterIcon,
   TwitterShareButton,
 } from "react-share";
+import { PROFILE_IMAGE_LOCATION, SITE_NAME } from "../lib/constants";
 
-import type Author from "../interfaces/author";
 import CoverImage from "./CoverImage";
 import DateFormatter from "./DateFormatter";
 import PostTitle from "./PostTitle";
@@ -21,7 +21,6 @@ type Props = {
   coverImage: string;
   coverImageAttribution: string;
   date: string;
-  author: Author;
 };
 
 const PostHeader = ({
@@ -31,7 +30,6 @@ const PostHeader = ({
   coverImage,
   coverImageAttribution,
   date,
-  author,
 }: Props) => {
   return (
     <>
@@ -45,9 +43,9 @@ const PostHeader = ({
 
       <div className="flex items-center mb-8">
         <img
-          src={author.picture}
+          src={PROFILE_IMAGE_LOCATION}
           className="w-8 h-8 sm:h-12 sm:w-12 rounded-full mr-4"
-          alt={author.name}
+          alt={SITE_NAME}
         />
 
         <span className="text-xs sm:text-lg">

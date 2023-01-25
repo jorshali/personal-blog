@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { SUBSCRIBER_REQUEST_URL } from "../lib/constants";
 
 import { LoadingButton } from "./LoadingButton";
 
@@ -7,9 +8,7 @@ const SubscribeForm = () => {
   const [email, setEmail] = useState("");
 
   const onSubscribe = async () => {
-    const url = new URL(
-      "https://qcg6wvoojg.execute-api.us-west-2.amazonaws.com/V1/subscriber"
-    );
+    const url = new URL(SUBSCRIBER_REQUEST_URL);
 
     const headers = {
       "Content-Type": "application/json",

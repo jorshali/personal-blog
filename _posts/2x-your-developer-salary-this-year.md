@@ -4,9 +4,6 @@ excerpt: 'Throw in better work-life balance, the ability to choose what projects
 coverImage: '/assets/blog/2x-your-developer-salary-this-year/ryland-dean-6k6N8HTrXyE-unsplash.jpg'
 coverImageAttribution: 'Photo by <a href="https://unsplash.com/@ryland_dean?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryland Dean</a> on <a href="https://unsplash.com/photos/6k6N8HTrXyE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 date: '2023-01-02T07:00:00.000Z'
-author:
-  name: Jacob Orshalick
-  picture: '/assets/blog/authors/orshalick.jpg'
 ogImage:
   url: '/assets/blog/2x-your-developer-salary-this-year/sam-moghadam-khamseh-TmbMLAvXrZQ-unsplash.jpg'
 ---
