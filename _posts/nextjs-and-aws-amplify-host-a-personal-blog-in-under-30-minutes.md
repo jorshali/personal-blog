@@ -161,3 +161,6 @@ That's it!  Your professional site is now live.  You can access your site from t
 
 If you run into any issues along the way, feel free to ask questions or post issues at:  [personal-site-starter](https://github.com/jorshali/personal-site-starter).
 
+## What's next?
+
+In the next post I'll be showing you how to add an AWS Lambda for saving subscribers.  Once that's complete, we'll register a domain and connect it through Route 52 in AWS so you can share your site with the world.
