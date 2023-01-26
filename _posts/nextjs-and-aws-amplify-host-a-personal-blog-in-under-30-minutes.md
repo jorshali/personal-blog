@@ -1,5 +1,5 @@
 ---
-title: 'Host a personal blog with Next.js and AWS in under 30 minutes '
+title: 'Host a personal blog with Next.js and AWS in under 30 minutes'
 excerpt: 'A tutorial where you can learn how to use Next.js with AWS while actually building something useful.'
 coverImage: '/assets/blog/nextjs-and-aws-amplify-host-a-personal-blog-in-under-30-minutes/sergio-capuzzimati-Ihml-Sigf6s-unsplash.jpg'
 coverImageAttribution: 'Photo by <a href="https://unsplash.com/@sergio_capuzzimati?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergio Capuzzimati</a> on <a href="https://unsplash.com/photos/Ihml-Sigf6s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
@@ -10,9 +10,9 @@ ogImage:
 
 We've all said it:
 
+- I want to setup a personal site
 - I want to learn Next.js
 - I want to try out AWS Amplify
-- I want to setup a personal site
 
 How can I do it all?
 
