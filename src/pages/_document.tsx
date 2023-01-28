@@ -18,10 +18,14 @@ export default function Document() {
           <Section yPadding="py-4">
             <NavbarTwoColumns logo={<Logo />}>
               <li className="mr-5">
-                <Link href="/#About-Me" passHref>About</Link>
+                <Link href="/#About-Me" passHref>
+                  About
+                </Link>
               </li>
               <li>
-                <Link href="/#Recent-Articles" passHref>Articles</Link>
+                <Link href="/#Recent-Articles" passHref>
+                  Articles
+                </Link>
               </li>
             </NavbarTwoColumns>
           </Section>

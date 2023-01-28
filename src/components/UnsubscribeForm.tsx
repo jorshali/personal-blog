@@ -10,7 +10,7 @@ const UnsubscribeForm = () => {
   useEffect(() => {
     const url = new URL(window.location.href);
 
-    setEmail(url.searchParams.get('email'));
+    setEmail(url.searchParams.get("email"));
   }, []);
 
   const onUnsubscribe = async () => {
@@ -33,7 +33,8 @@ const UnsubscribeForm = () => {
   return (
     <div className="text-center">
       <div className="mb-8">
-        Are you sure you want to unsubscribe from all communication?  You will stop receiving valuable weekly tips.
+        Are you sure you want to unsubscribe from all communication? You will
+        stop receiving valuable weekly tips.
       </div>
       <div className="mb-8">
         <input
@@ -45,7 +46,9 @@ const UnsubscribeForm = () => {
       </div>
 
       {unsubscribed ? (
-        <div className="mb-4">We're sorry to see you go!  You can resubscribe any time.</div>
+        <div className="mb-4">
+          We're sorry to see you go! You can resubscribe any time.
+        </div>
       ) : null}
 
       <LoadingButton xl onClick={onUnsubscribe}>
