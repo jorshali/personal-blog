@@ -163,4 +163,13 @@ If you run into any issues along the way, feel free to ask questions or post iss
 
 ## What's next?
 
-In the next post I'll be showing you how to add an AWS Lambda for saving subscribers.  Once that's complete, we'll register a domain and connect it through [Route 53](https://aws.amazon.com/route53/) in AWS so you can share your site with the world.
+In the following posts, I'll show you how to track subscribers in AWS and how to setup a custom domain:
+
+- [Start tracking your subscribers in AWS in under 30 minutes](https://jacoborshalick.me/posts/build-a-subscriber-rest-api-on-aws-in-under-30-minutes)
+- [Configure a custom domain for your AWS Amplify App](https://jacoborshalick.me/posts/configure-a-custom-domain-for-your-aws-amplify-app)
+
+Setting up subscribers is optional.  If you aren't ready for that just yet, you can disable subscribers in `src/lib/constants.ts`.  Simply set `SUBSCRIBE_ENABLED` to `false`.
+
+You can jump straight to registering a custom domain and connecting it through [Route 53](https://aws.amazon.com/route53/) in AWS.  That way you can share your new portfolio site with the world.
+
+
