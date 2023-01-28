@@ -124,8 +124,8 @@ aws configure --profile aws-subscribers-prod
 This will ask you for your __AWS Access Key ID__ and __AWS Secret Access Key__.  Open back up  the page you left open so you can copy and paste those values.  Complete the questions as follows:
 
 ```
-AWS Access Key ID [None]: AKBPRYHDIHER6NRKFAJJ
-AWS Secret Access Key [None]: /FAJUdjasdfdfFJHJ/asdfujahdf+32iasdfFJEjj
+AWS Access Key ID [None]: <copy and paste the Access Key ID here>
+AWS Secret Access Key [None]: <copy and paste the Secret Access Key here>
 Default region name [None]: us-west-2
 Default output format [None]: json
 ```
