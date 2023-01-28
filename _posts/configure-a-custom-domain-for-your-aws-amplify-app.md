@@ -3,7 +3,7 @@ title: 'Configure a custom domain for your AWS Amplify App'
 excerpt: 'A custom domain lets you share your AWS Amplify App with the world.  This tutorial will show you how to do just that.'
 coverImage: '/assets/blog/configure-a-custom-domain-for-your-aws-amplify-app/tim-mossholder-eUyXxFrwVOE-unsplash.jpg'
 coverImageAttribution: 'Photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Mossholder</a> on <a href="https://unsplash.com/photos/eUyXxFrwVOE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
-date: '2023-01-30T07:00:00.000Z'
+date: '2023-01-31T07:00:00.000Z'
 ogImage:
   url: '/assets/blog/configure-a-custom-domain-for-your-aws-amplify-app/tim-mossholder-eUyXxFrwVOE-unsplash.jpg'
 ---
