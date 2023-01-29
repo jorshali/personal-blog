@@ -52,6 +52,11 @@ The application was built with [Next.js](https://nextjs.org) and [Tailwind](http
 - [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter)
 - [Next-JS-Landing-Page-Starter-Template](https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template)
 
+
+You can expect your site to be extremely performant.  My example site gets a near perfect Lighthouse score. 
+
+![lighthouse score](/assets/images/lighthouse_score.png "Near perfect Lighthouse score")
+
 Now let's get started.
 
 ## Retrieve the personal site starter
