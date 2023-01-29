@@ -175,6 +175,6 @@ In the following posts, I'll show you how to track subscribers in AWS and how to
 
 Setting up subscribers is optional.  If you aren't ready for that just yet, you can disable subscribers in `src/lib/constants.ts`.  Simply set `SUBSCRIBE_ENABLED` to `false`.
 
-You can jump straight to registering a custom domain and connecting it through [Route 53](https://aws.amazon.com/route53/) in AWS.  That way you can share your new portfolio site with the world.
+You can now register a custom domain and connect it through [Route 53](https://aws.amazon.com/route53/) in AWS.  That way you can share your new portfolio site with the world.
 
 
