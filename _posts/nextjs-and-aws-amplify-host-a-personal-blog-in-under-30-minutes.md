@@ -1,5 +1,5 @@
 ---
-title: 'Host a personal blog with Next.js and AWS in under 30 minutes'
+title: 'Host a portfolio site with Next.js and AWS in under 30 minutes'
 excerpt: 'A tutorial where you can learn how to use Next.js with AWS while actually building something useful.'
 coverImage: '/assets/blog/nextjs-and-aws-amplify-host-a-personal-blog-in-under-30-minutes/sergio-capuzzimati-Ihml-Sigf6s-unsplash.jpg'
 coverImageAttribution: 'Photo by <a href="https://unsplash.com/@sergio_capuzzimati?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergio Capuzzimati</a> on <a href="https://unsplash.com/photos/Ihml-Sigf6s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
@@ -18,11 +18,11 @@ How can I do it all?
 
 Here's your chance.  Finally, a tutorial where you learn while actually building something useful.
 
-By the end of this article, you'll have your own personal blog, built with Next.js, and hosted on AWS.  As an encore, I'll even show you how to setup your own domain and a subscriber service so you can share it with the world.  It's never been easier to start some self-promotion.
+By the end of this article, you'll have your own portfolio site, built with Next.js, and hosted on AWS.  As an encore, I'll even show you how to [setup a subscriber service](https://jacoborshalick.me/posts/build-a-subscriber-rest-api-on-aws-in-under-30-minutes) and [your own custom domain](https://jacoborshalick.me/posts/configure-a-custom-domain-for-your-aws-amplify-app) so you can share it with the world.  It's never been easier to start some self-promotion.
 
 Need proof?  The article your reading was imported to Medium from [jacoborshalick.me](https://jacoborshalick.me).  This site was created using the steps shown here.
 
-So let's get your personal blog built!
+So let's get your portfolio site built!
 
 ## Before you get started
 
@@ -44,6 +44,7 @@ The [personal site starter](https://github.com/jorshali/personal-site-starter) c
 - ability to subscribe
 - blog posts
 - responsiveness for mobile
+- easy modification
 
 You can see an example at [https://jacoborshalick.me](https://jacoborshalick.me).
 
@@ -170,11 +171,9 @@ If you run into any issues along the way, feel free to ask questions or post iss
 
 In the following posts, I'll show you how to track subscribers in AWS and how to setup a custom domain:
 
-- [Start tracking your subscribers in AWS in under 30 minutes](https://jacoborshalick.me/posts/build-a-subscriber-rest-api-on-aws-in-under-30-minutes)
-- [Configure a custom domain for your AWS Amplify App](https://jacoborshalick.me/posts/configure-a-custom-domain-for-your-aws-amplify-app)
+- Part 2: [Start tracking your subscribers in AWS in under 30 minutes](https://jacoborshalick.me/posts/build-a-subscriber-rest-api-on-aws-in-under-30-minutes)
+- Part 3: [Configure a custom domain for your AWS Amplify App](https://jacoborshalick.me/posts/configure-a-custom-domain-for-your-aws-amplify-app)
 
 Setting up subscribers is optional.  If you aren't ready for that just yet, you can disable subscribers in `src/lib/constants.ts`.  Simply set `SUBSCRIBE_ENABLED` to `false`.
 
 You can now register a custom domain and connect it through [Route 53](https://aws.amazon.com/route53/) in AWS.  That way you can share your new portfolio site with the world.
-
-
