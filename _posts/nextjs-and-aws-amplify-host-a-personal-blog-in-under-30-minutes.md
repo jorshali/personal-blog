@@ -20,7 +20,7 @@ Here's your chance.  Finally, a tutorial where you learn while actually building
 
 By the end of this article, you'll have your own portfolio site, built with Next.js, and hosted on AWS.  As an encore, I'll even show you how to [setup a subscriber service](https://jacoborshalick.me/posts/build-a-subscriber-rest-api-on-aws-in-under-30-minutes) and [your own custom domain](https://jacoborshalick.me/posts/configure-a-custom-domain-for-your-aws-amplify-app) so you can share it with the world.  It's never been easier to start some self-promotion.
 
-Need proof?  The article your reading was imported to Medium from [jacoborshalick.me](https://jacoborshalick.me).  This site was created using the steps shown here.
+Need proof?  This site was created using the steps shown here.
 
 So let's get your portfolio site built!
 
