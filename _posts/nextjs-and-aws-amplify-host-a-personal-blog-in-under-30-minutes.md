@@ -10,7 +10,7 @@ ogImage:
 
 We've all said it:
 
-- I want to setup a personal site
+- I want to setup a portfolio site
 - I want to learn Next.js
 - I want to try out AWS Amplify
 
