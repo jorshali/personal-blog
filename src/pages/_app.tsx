@@ -7,7 +7,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-xxxxxxxxxx"
+        src="https://www.googletagmanager.com/gtag/js?id=G-N9RF3LYM9T"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
