@@ -27,7 +27,7 @@ export default function Post({ post }: Props) {
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
-  
+
   return (
     <Layout excludeOgImage={true}>
       <Container>
