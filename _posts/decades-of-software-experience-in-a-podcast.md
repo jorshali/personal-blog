@@ -13,6 +13,7 @@ Had a great conversation with Wojciech Bulaty, owner of Fab Software Fast, cover
 
 - software career essentials
 - helping teams succeed
+- saving failing projects
 - and successfully bringing new technologies into your organization
 
 Watch the video below for some great tips!
