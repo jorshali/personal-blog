@@ -9,6 +9,7 @@ type PostType = {
     url: string;
   };
   content: string;
+  youTubeVideoId: string;
 };
 
 export default PostType;

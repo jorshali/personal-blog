@@ -1,6 +1,7 @@
 import ErrorPage from "next/error";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import YouTube from "react-youtube";
 
 import Container from "../../components/Container";
 import Layout from "../../components/Layout";
@@ -53,6 +54,14 @@ export default function Post({ post }: Props) {
                 />
                 <PostBody content={post.content} />
 
+                {post.youTubeVideoId ? (
+                  <YouTube
+                    opts={{ width: "100%" }}
+                    style={{ textAlign: "center" }}
+                    videoId={post.youTubeVideoId}
+                  />
+                ) : null}
+
                 <SectionSeparator />
 
                 <div className="mt-8 mb-8 text-lg">
@@ -84,6 +93,7 @@ export async function getStaticProps({ params }: Params) {
     "ogImage",
     "coverImage",
     "coverImageAttribution",
+    "youTubeVideoId",
   ]);
   const content = await markdownToHtml(post.content || "");
 
