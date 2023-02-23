@@ -1,11 +1,12 @@
 ---
-subject: 'Start asking your Product Owner "Why"'
-number: '004'
-previewText: 'While the how is certainly important, you need to understand the business problem you are trying to solve.'
-viewInBrowserLink: 'https://jacoborshalick.me'
+title: 'Don''t be afraid to ask your Product Owner "Why"'
+excerpt: 'While the how is certainly important, make sure you understand the business problem you''re solving first.'
+coverImage: '/assets/blog/dont-be-afraid-to-ask-your-product-owner-why/johan-extra-KsSUgqDwvb0-unsplash.jpg'
+coverImageAttribution: 'Photo by <a href="https://unsplash.com/@johannes25?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Johan Extra</a> on <a href="https://unsplash.com/photos/KsSUgqDwvb0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
+date: '2023-02-23T07:00:00.000Z'
+ogImage:
+  url: '/assets/blog/dont-be-afraid-to-ask-your-product-owner-why/johan-extra-KsSUgqDwvb0-unsplash.jpg'
 ---
-
-## It's the only way to make sure you're solving the *right* business problem.
 
 So many conversations I hear with product owners are focused on the "how":
 
@@ -43,7 +44,9 @@ You're coming into an unfamiliar business environment.  You need to understand w
 
 I'm amazed at how often these "why" conversations with a Product Owner lead us to completely rethink system features.
 
-Something that seemed impossible or simply too expensive to build in the eyes of the Product Owner may not only be feasible, it may be quite simple.
+> Lightbulb moments of insight come from conversations about "why".
+
+Something that seemed impossible or maybe too expensive to build in the eyes of the Product Owner may not only be feasible, it may be quite simple.
 
 As software developers we uniquely understand what's possible with software.  We must use that expertise to guide the business.
 
