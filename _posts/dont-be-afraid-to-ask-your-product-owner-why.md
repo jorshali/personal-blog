@@ -1,6 +1,6 @@
 ---
 title: 'Don''t be afraid to ask your Product Owner "Why"'
-excerpt: 'While the how is certainly important, make sure you understand the business problem you''re solving first.'
+excerpt: 'Software developers uniquely understand what''s possible with software. But, we need to know the “why” to guide the business.'
 coverImage: '/assets/blog/dont-be-afraid-to-ask-your-product-owner-why/johan-extra-KsSUgqDwvb0-unsplash.jpg'
 coverImageAttribution: 'Photo by <a href="https://unsplash.com/@johannes25?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Johan Extra</a> on <a href="https://unsplash.com/photos/KsSUgqDwvb0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 date: '2023-02-23T07:00:00.000Z'
@@ -38,17 +38,17 @@ My son recently asked me about gravity.  Kids are naturally curious and they are
 > 
 > __My son:__  *(In my wife's tone when she knows I'm in over my head)* Dad, do we need to ask ChatGPT?
 
+---
+
 I constantly find myself asking Product Owners why.  As a consultant it's necessary.  
 
 You're coming into an unfamiliar business environment.  You need to understand why what you're building has anything to do with their business.
 
-I'm amazed at how often these "why" conversations with a Product Owner lead us to completely rethink system features.
-
-> Lightbulb moments of insight come from conversations about "why".
+I'm amazed at how often these "why" conversations with a Product Owner lead us to completely rethink system features.  Lightbulb moments of insight come from conversations about "why".
 
 Something that seemed impossible or maybe too expensive to build in the eyes of the Product Owner may not only be feasible, it may be quite simple.
 
-As software developers we uniquely understand what's possible with software.  We must use that expertise to guide the business.
+> As software developers we uniquely understand what's possible with software.  We must use that expertise to guide the business.
 
 So make sure you understand the business problem you're trying to solve before jumping into a solution.
 
