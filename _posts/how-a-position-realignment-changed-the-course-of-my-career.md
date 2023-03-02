@@ -28,9 +28,9 @@ Contracting led me to my form of freedom:
 
 A couple of years later I started my own consulting company and never looked back.
 
-Only you can decide what a successful career looks like.  So do what it takes to take back control of your career.
+Only you can decide what your form of freedom looks like.  What a successful career is for you.  So do what it takes to take back control of your career.
 
-Decide what's important to you and have the courage to make the changes necessary to reach your goals.  It could be self-improvement, starting a company, changing fields, whatever it takes.
+Decide what's important to you and have the courage to make the changes necessary to reach your goals.  It could be self-improvement, asking for that promotion, starting a company, changing fields, whatever it takes.
 
 ## Because remember...
 
