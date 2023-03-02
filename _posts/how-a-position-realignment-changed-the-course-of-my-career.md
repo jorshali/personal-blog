@@ -3,7 +3,7 @@ title: 'How a promotion without a raise changed my career'
 excerpt: 'A "position realignment" gave me the kick in the ass I needed to take back control of my career.'
 coverImage: '/assets/blog/how-a-position-realignment-changed-the-course-of-my-career/roger-bradshaw-1PPoNhMzAmY-unsplash.jpg'
 coverImageAttribution: 'Photo by <a href="https://unsplash.com/@roger3010?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roger Bradshaw</a> on <a href="https://unsplash.com/photos/1PPoNhMzAmY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
-date: '2023-03-2T07:00:00.000Z'
+date: '2023-03-02T07:00:00.000Z'
 ogImage:
   url: '/assets/blog/how-a-position-realignment-changed-the-course-of-my-career/roger-bradshaw-1PPoNhMzAmY-unsplash.jpg'
 ---
