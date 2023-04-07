@@ -8,7 +8,7 @@ ogImage:
   url: '/assets/blog/what-makes-a-great-software-architect/ryan-ancill-0w1MiTY78h0-unsplash.jpg'
 ---
 
-## Being a great software architect isn't about using the latest and greatest technologies.
+Being a great software architect isn't about using the latest and greatest technologies.
 
 It's about:
 
