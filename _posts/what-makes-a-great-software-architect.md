@@ -1,11 +1,11 @@
 ---
 title: 'What makes a great software architect'
 excerpt: 'Being a great software architect is not about using the latest and greatest technologies.  It''s much more than that.'
-coverImage: '/assets/blog/what-makes-a-great-software-architect/image.jpg'
+coverImage: '/assets/images/software_architect.jpg'
 coverImageAttribution: 'Photo by <a href="https://unsplash.com/@ryanancill?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan Ancill</a> on <a href="https://unsplash.com/photos/0w1MiTY78h0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 date: '2023-04-07T07:00:00.000Z'
 ogImage:
-  url: '/assets/blog/what-makes-a-great-software-architect/image.jpg'
+  url: '/assets/images/software_architect.jpg'
 ---
 
 Being a great software architect isn't about using the latest and greatest technologies.
