@@ -2,9 +2,9 @@ export const SITE_NAME = "Jacob Orshalick";
 export const SITE_URL = "https://jacoborshalick.me";
 export const COPYRIGHT = "Jacob Orshalick";
 
-export const HERO_TITLE = "Build the software career you want";
+export const HERO_TITLE = "Friday Developer Focus";
 export const HERO_SUBTITLE =
-  "Weekly, actionable tips to invest in yourself and raise your value.";
+  "Sign up for weekly, actionable tips to build better software.";
 
 export const PROFILE_IMAGE_LOCATION = "/assets/blog/authors/orshalick.jpg";
 export const PROFILE_ABOUT_TEXT =
