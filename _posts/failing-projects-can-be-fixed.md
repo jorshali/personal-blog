@@ -1,11 +1,11 @@
 ---
 title: 'Failing software projects can be fixed'
 excerpt: 'Almost all the reasons projects fail can be fixed.  But, nothing is going to change until you find the source of the problem.'
-coverImage: '/assets/blog/failing-projects-can-be-fixed/luis-villasmil-mlVbMbxfWI4-unsplash'
+coverImage: '/assets/blog/failing-projects-can-be-fixed/luis-villasmil-mlVbMbxfWI4-unsplash.jpg'
 coverImageAttribution: 'Photo by <a href="https://unsplash.com/es/@villxsmil?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luis Villasmil</a> on <a href="https://unsplash.com/photos/mlVbMbxfWI4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 date: '2023-03-24T07:00:00.000Z'
 ogImage:
-  url: '/assets/blog/failing-projects-can-be-fixed/luis-villasmil-mlVbMbxfWI4-unsplash'
+  url: '/assets/blog/failing-projects-can-be-fixed/luis-villasmil-mlVbMbxfWI4-unsplash.jpg'
 ---
 
 ## Our software project is failing!
